@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fraud-detection-ai"
+version = "0.1.0"
+description = "FraudDetectionAI leverages advanced AI and SQL-powered data analysis to proactively identify and prevent fraudulent activities in real estate transactions, ensuring transparency and security"
+authors = ["Krupique <krupique@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+sqlalchemy = "^2.0.38"
+psycopg2 = "^2.9.10"
+langchain-core = "^0.3.34"
+langchain-community = "^0.3.17"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
