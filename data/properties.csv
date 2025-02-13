@@ -1,0 +1,41 @@
+property_id,address,city,state,zipcode,description
+1,Av. do Contorno 150,Fortaleza,Paraná,51020-280,"House with 4 bedrooms, complete leisure area, recently renovated."
+2,Boulevard Sunset 1300,Rio de Janeiro,Bahia,69005-070,Modern loft with integrated smart home technology.
+3,Via Norte 850,Goiânia,Pernambuco,80010-180,"Industrial warehouse near highways, ideal for logistics."
+4,Estrada da Serra 444,Belo Horizonte,Pernambuco,90050-120,"Furnished flat with hotel services, close to the airport."
+5,Via Norte 850,Fortaleza,Rio de Janeiro,20090-000,Modern loft with integrated smart home technology.
+6,Estrada Real 1120,Salvador,São Paulo,51020-280,"Furnished flat with hotel services, close to the airport."
+7,Av. Brasil 2450,Belo Horizonte,Minas Gerais,51020-280,"Furnished flat with hotel services, close to the airport."
+8,Rua Amarela 333,Goiânia,Minas Gerais,30120-020,"Street store in a high-traffic area, great commercial spot."
+9,Praça da Árvore 580,Curitiba,Paraná,80010-180,"Industrial warehouse near highways, ideal for logistics."
+10,Estrada da Serra 444,Manaus,Pernambuco,90050-120,"Industrial warehouse near highways, ideal for logistics."
+11,Praça Central 480,Salvador,Amazonas,40026-010,"Townhouse in a historic neighborhood, fully restored."
+12,Boulevard Green 1234,Salvador,Rio Grande do Sul,30120-020,Modern loft with integrated smart home technology.
+13,Alameda dos Sonhos 700,Manaus,Minas Gerais,51020-280,"Street store in a high-traffic area, great commercial spot."
+14,Av. do Contorno 150,Fortaleza,Rio de Janeiro,60060-440,"Street store in a high-traffic area, great commercial spot."
+15,Praça da Árvore 580,Recife,Minas Gerais,30120-020,"Furnished flat with hotel services, close to the airport."
+16,Praça da Árvore 580,Rio de Janeiro,Ceará,90050-120,"Industrial warehouse near highways, ideal for logistics."
+17,Boulevard Sunset 1300,Salvador,São Paulo,69005-070,Spacious farmhouse with mountain views and a river in the back.
+18,Av. Brasil 2450,Goiânia,Amazonas,60060-440,Commercial office in the heart of the financial district.
+19,Boulevard Green 1234,Manaus,Paraná,69005-070,"Studio apartment in the city center, ideal for singles."
+20,Estrada Real 1120,Manaus,Minas Gerais,40026-010,"Industrial warehouse near highways, ideal for logistics."
+21,Estrada Real 1120,Rio de Janeiro,Goiás,69005-070,"Industrial warehouse near highways, ideal for logistics."
+22,Alameda dos Sonhos 700,Curitiba,Amazonas,20090-000,Duplex penthouse with panoramic city views and a jacuzzi.
+23,Via Láctea 900,Fortaleza,Goiás,40026-010,"Industrial warehouse near highways, ideal for logistics."
+24,Via Norte 850,Curitiba,Rio de Janeiro,74003-010,"Townhouse in a historic neighborhood, fully restored."
+25,Rua Azul 200,São Paulo,Paraná,69005-070,"Studio apartment in the city center, ideal for singles."
+26,Praça da Árvore 580,Rio de Janeiro,São Paulo,74003-010,Spacious farmhouse with mountain views and a river in the back.
+27,Estrada Real 1120,São Paulo,São Paulo,30120-020,Spacious farmhouse with mountain views and a river in the back.
+28,Av. do Contorno 150,Belo Horizonte,Rio Grande do Sul,74003-010,"Street store in a high-traffic area, great commercial spot."
+29,Estrada da Serra 444,Porto Alegre,Paraná,74003-010,"Furnished flat with hotel services, close to the airport."
+30,Boulevard Green 1234,Porto Alegre,Rio Grande do Sul,90050-120,"Studio apartment in the city center, ideal for singles."
+31,Alameda dos Sonhos 700,Recife,Paraná,51020-280,Commercial office in the heart of the financial district.
+32,Alameda dos Anjos 450,Salvador,Goiás,40026-010,Spacious farmhouse with mountain views and a river in the back.
+33,Boulevard Sunset 1300,Manaus,Pernambuco,90050-120,Commercial office in the heart of the financial district.
+34,Boulevard Sunset 1300,Salvador,Bahia,74003-010,"Industrial warehouse near highways, ideal for logistics."
+35,Praça da Árvore 580,Curitiba,Goiás,20090-000,Commercial office in the heart of the financial district.
+36,Alameda dos Sonhos 700,São Paulo,São Paulo,20090-000,Modern loft with integrated smart home technology.
+37,Av. do Contorno 150,Goiânia,Rio de Janeiro,74003-010,Commercial office in the heart of the financial district.
+38,Boulevard Green 1234,Salvador,Goiás,90050-120,Modern loft with integrated smart home technology.
+39,Rua Amarela 333,Rio de Janeiro,Rio de Janeiro,01000-000,"House with 4 bedrooms, complete leisure area, recently renovated."
+40,Av. Brasil 2450,Recife,Rio de Janeiro,90050-120,Modern loft with integrated smart home technology.
