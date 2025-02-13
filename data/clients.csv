@@ -1,0 +1,30 @@
+customer_id,name,email,city,state,zipcode
+1,Patricia Freitas,lucas99@example.com,Fortaleza,SP,01000-000
+2,Ricardo Neves,carlos48@example.com,Curitiba,MG,80010-180
+3,Bruno Martins,alice3@example.com,Belo Horizonte,PE,90050-120
+4,Camila Rocha,alice3@example.com,Curitiba,CE,40026-010
+5,Lucas Peixoto,maria33@example.com,Rio de Janeiro,SP,20090-000
+6,Julia Almeida,julia54@example.com,Sao Paulo,PE,40026-010
+7,Luiz Costa,ricardo42@example.com,Belo Horizonte,RJ,20090-000
+8,Bruno Martins,julia54@example.com,Porto Alegre,PE,40026-010
+9,Rafael Dias,gabriel27@example.com,Sao Paulo,PE,74003-010
+10,Patricia Freitas,bruno10@example.com,Belo Horizonte,GO,74003-010
+11,Bruno Martins,patricia84@example.com,Rio de Janeiro,BA,30120-020
+12,Ana Silva,beatriz51@example.com,Porto Alegre,AM,69005-070
+13,Diego Pereira,renato90@example.com,Goiania,GO,01000-000
+14,Helena Carvalho,bruno10@example.com,Porto Alegre,SP,51020-280
+15,Fernanda Gomes,bruno10@example.com,Fortaleza,CE,40026-010
+16,Ricardo Neves,bruno10@example.com,Recife,RJ,90050-120
+17,Sofia Cardoso,thiago11@example.com,Porto Alegre,AM,51020-280
+18,Felipe Sampaio,bruno10@example.com,Curitiba,PR,30120-020
+19,Carlos Eduardo,vinicius54@example.com,Sao Paulo,Brazil
+20,Renato Oliveira,luiz19@example.com,Porto Alegre,PE,20090-000
+21,Larissa Fernandes,camila73@example.com,Rio de Janeiro,RS,74003-010
+22,Julia Almeida,luiz19@example.com,Sao Paulo,PR,20090-000
+23,Leticia Silva,felipe60@example.com,Fortaleza,RJ,30120-020
+24,Julia Almeida,sofia39@example.com,Fortaleza,MG,74003-010
+25,Leticia Silva,fernanda13@example.com,Manaus,PE,40026-010
+26,Lucas 27,Gustavo Barros,gabriel27@example.com,Sao Paulo,RS,51020-280
+28,Carlos Eduardo,isabela28@example.com,Fortaleza,RJ,30120-020
+29,Rafael Dias,carlos48@example.com,Porto Alegre,RS,60960-440
+30,Julia Almeida,vitoria34@example.com,Salvador,PE,74003-010
