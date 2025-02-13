@@ -12,6 +12,7 @@ sqlalchemy = "^2.0.38"
 psycopg2 = "^2.9.10"
 langchain-core = "^0.3.34"
 langchain-community = "^0.3.17"
+ipykernel = "^6.29.5"
 
 
 [build-system]
