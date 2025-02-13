@@ -1,0 +1,31 @@
+history_id,transaction_id,modification_date,description
+1,1,2023-01-07,New property appraisal conducted.
+2,19,2023-01-08,Transaction cancellation.
+3,19,2023-01-09,Modification of transaction value.
+4,14,2023-01-10,Status updated to completed.
+5,20,2023-01-11,Transaction cancellation.
+6,1,2023-01-12,Modification of transaction value.
+7,10,2023-01-13,Transaction registered in the system.
+8,3,2023-01-14,Status updated to completed.
+9,15,2023-01-15,New property appraisal conducted.
+10,16,2023-01-16,Modification of transaction value.
+11,5,2023-01-17,New property appraisal conducted.
+12,3,2023-01-18,New property appraisal conducted.
+13,20,2023-01-19,New property appraisal conducted.
+14,13,2023-01-20,Transaction registered in the system.
+15,6,2023-01-21,Transaction registered in the system.
+16,13,2023-01-22,Transaction cancellation.
+17,14,2023-01-23,Review of required documentation.
+18,15,2023-01-24,New property appraisal conducted.
+19,2,2023-01-25,Transaction cancellation.
+20,12,2023-01-26,New property appraisal conducted.
+21,1,2023-01-27,Modification of associated client data.
+22,16,2023-01-28,Modification of associated client data.
+23,9,2023-01-29,Modification of associated client data.
+24,20,2023-01-30,Modification of transaction value.
+25,11,2023-01-31,Transaction registered in the system.
+26,8,2023-02-01,New property appraisal conducted.
+27,15,2023-02-02,Status updated to completed.
+28,6,2023-02-03,Transaction registered in the system.
+29,2,2023-02-04,Transaction cancellation.
+30,18,2023-02-05,Modification of transaction value.
