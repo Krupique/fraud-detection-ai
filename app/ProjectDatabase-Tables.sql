@@ -4,11 +4,11 @@
 DROP SCHEMA IF EXISTS projectdb CASCADE;
 
 -- Create the schema
-CREATE SCHEMA projectdb AUTHORIZATION adm;
+CREATE SCHEMA projectdb AUTHORIZATION admin;
 
 
 -- Creates the tables
-CREATE TABLE projectdb.client (
+CREATE TABLE projectdb.customers (
     customer_id SERIAL PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
     email VARCHAR(100),
@@ -34,8 +34,8 @@ CREATE TABLE projectdb.financial_transactions (
     transaction_date DATE NOT NULL,
     transaction_type VARCHAR(50),
     status VARCHAR(20),
-    FOREIGN KEY (customer_id) REFERENCES projectdb.client(customer_id),
-    FOREIGN KEY (property_id) REFERENCES projectdb.imoveis(property_id)
+    FOREIGN KEY (customer_id) REFERENCES projectdb.customers(customer_id),
+    FOREIGN KEY (property_id) REFERENCES projectdb.properties(property_id)
 );
 
 CREATE TABLE projectdb.transactions_history (
