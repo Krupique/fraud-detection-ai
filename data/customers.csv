@@ -17,14 +17,15 @@ customer_id,name,email,city,state,zipcode
 16,Ricardo Neves,bruno10@example.com,Recife,RJ,90050-120
 17,Sofia Cardoso,thiago11@example.com,Porto Alegre,AM,51020-280
 18,Felipe Sampaio,bruno10@example.com,Curitiba,PR,30120-020
-19,Carlos Eduardo,vinicius54@example.com,Sao Paulo,Brazil
+19,Carlos Eduardo,vinicius54@example.com,Sao Paulo,SP,00100-010
 20,Renato Oliveira,luiz19@example.com,Porto Alegre,PE,20090-000
 21,Larissa Fernandes,camila73@example.com,Rio de Janeiro,RS,74003-010
 22,Julia Almeida,luiz19@example.com,Sao Paulo,PR,20090-000
 23,Leticia Silva,felipe60@example.com,Fortaleza,RJ,30120-020
 24,Julia Almeida,sofia39@example.com,Fortaleza,MG,74003-010
 25,Leticia Silva,fernanda13@example.com,Manaus,PE,40026-010
-26,Lucas 27,Gustavo Barros,gabriel27@example.com,Sao Paulo,RS,51020-280
+26,Lucas Antunes,lucasantunes189@example.com,Presidente Epitácio,SP,19470-000
+27,Gustavo Barros,gabriel27@example.com,Sao Paulo,RS,51020-280
 28,Carlos Eduardo,isabela28@example.com,Fortaleza,RJ,30120-020
 29,Rafael Dias,carlos48@example.com,Porto Alegre,RS,60960-440
 30,Julia Almeida,vitoria34@example.com,Salvador,PE,74003-010
