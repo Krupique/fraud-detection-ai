@@ -6,7 +6,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 # Create the connection engine (PAY ATTENTION TO THE CONNECTION STRING BELOW!!!!!!)
-engine = create_engine('postgresql+psycopg2://adming:adming1010@localhost:5553/transactiondb')
+engine = create_engine('postgresql+psycopg2://admin:admin1010@localhost:5553/transactiondb')
 
 print("\nStarting the Data Loading Process!\n")
 
@@ -26,10 +26,10 @@ def load_data(csv_file, table_name, schema):
         print(f"Error inserting data from file {csv_file} into table {schema}.{table_name}: {e}")
 
 # Loading data into the 'projectdb' schema
-load_data('clients.csv', 'clientes', 'projectdb')
-load_data('properties.csv', 'imoveis', 'projectdb')
-load_data('financial_transactions.csv', 'financial_transactions', 'projectdb')
-load_data('transactions_history.csv', 'transactions_history', 'projectdb')
+load_data('data/customers.csv', 'customers', 'projectdb')
+load_data('data/properties.csv', 'properties', 'projectdb')
+load_data('data/financial_transactions.csv', 'financial_transactions', 'projectdb')
+load_data('data/transactions_history.csv', 'transactions_history', 'projectdb')
 
 print("\nLoad Successfully Executed! Use pgAdmin to Check the Data If You Want!\n")
 print("\nStarting the Data Analysis Process with AI. Be Patient and Wait for the Excellent Result That Will Be Delivered to You!\n")
