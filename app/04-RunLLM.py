@@ -63,16 +63,47 @@ def generate_insights():
     # Get all the results of the query
     rows = cursor.fetchall()
 
+    # Initialize a list to store the insights
+    insights = []
+
+    # Creating the chatbot prompt template
+    prompt = ChatPromptTemplate.from_messages(
+        [
+            ("system", "You are a specialized real estate analyst. Analyze data and provide feedback on detecting fraud in real estate financial transactions."),
+            ("user", "question: {question}")
+        ]
+    )
+
+    # Definition of execution chain: prompt -> LLM -> output_parser
+    chain = prompt | llm | output_parser
+
+    # Iterate over the result rows
+    for row in rows:
+        # Unpack the values ​​from each row
+        transaction_id, client, property_description, property_value, transaction_date, transaction_type, status, modification_date, description_history = row
+        # Create the prompt for LLM based on the data
+        query = f"Transaction_ID {transaction_id} Client Name {client} Property Description {property_description} Property Value ${property_value:.2f} Transaction Date {transaction_date} Transaction Type {transaction_type} Status {status} Modification Date {modification_date} History Description {description_history}."
+        # Generate the insight text using LLM
+        response = chain.invoke({'question': query})
+        # Add the generated text to the list of insights
+        insights.append(response)
 
 
+    # Close the database connection
+    conn.close()
+
+    # Salva os insights em um arquivo CSV
+    with open('results/insights.md', mode='w', newline='', encoding='utf-8') as file:
+        writer = csv.writer(file)
+        writer.writerow(["Insight"])
+        for insight in insights:
+            writer.writerow([insight])
+
+    print('The insights were saved on results/insights.md')
+
+    # Retorna a lista de insights
+    return insights
 
 
-
-
-
-
-
-
-
-# Gera insights chamando a função definida
+# Generate insights by calling the defined function
 insights = generate_insights()
