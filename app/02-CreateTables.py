@@ -39,6 +39,6 @@ def execute_script_sql(filename):
         conn.close()
 
 # Execute the SQL script
-execute_script_sql('ProjectDatabase-01-Tables.sql')
+execute_script_sql('app/ProjectDatabase-Tables.sql')
 
 
