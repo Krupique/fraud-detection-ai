@@ -2,21 +2,17 @@
 
 # Imports
 import csv
+# from tqdm import tqdm
 import psycopg2
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_community.llms.ollama import Ollama
 
-# Instantiating LLM Llama3 through Ollama
-llm = Ollama(model = "llama3")
-
-# Creating the parser for the language model output
-output_parser = StrOutputParser()
-
 # Function to generate text based on PostgreSQL data
 def generate_insights():
 
     # Connect to the PostgreSQL database with the provided credentials
+    print('Create connection')
     conn = psycopg2.connect(
         dbname="transactiondb",
         user="admin",
@@ -104,6 +100,12 @@ def generate_insights():
     # Retorna a lista de insights
     return insights
 
+
+# Instantiating LLM Llama3 through Ollama
+llm = Ollama(model = "llama3")
+
+# Creating the parser for the language model output
+output_parser = StrOutputParser()
 
 # Generate insights by calling the defined function
 insights = generate_insights()
